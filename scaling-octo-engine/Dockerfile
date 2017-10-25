@@ -14,4 +14,5 @@ RUN dotnet publish --output /app/ --configuration Release
 FROM microsoft/aspnetcore
 WORKDIR /app
 COPY --from=builder /app .
+EXPOSE 80
 ENTRYPOINT ["dotnet", "scaling-octo-engine.dll"]
