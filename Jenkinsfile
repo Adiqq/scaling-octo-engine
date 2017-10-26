@@ -10,7 +10,7 @@ pipeline {
       steps {
         sh '''docker stop scaling-octo-engine || true
 docker rm scaling-octo-engine || true
-docker run --name=scaling-octo-engine --restart=always \\\\
+docker run --name=scaling-octo-engine --restart=always \\
 -d -p 30001:80 scaling-octo-engine'''
       }
     }
