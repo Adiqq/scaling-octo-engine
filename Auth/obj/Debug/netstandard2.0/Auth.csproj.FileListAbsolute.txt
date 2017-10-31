@@ -1,0 +1,8 @@
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/bin/Debug/netstandard2.0/Auth.deps.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/bin/Debug/netstandard2.0/Auth.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/bin/Debug/netstandard2.0/Auth.pdb
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/obj/Debug/netstandard2.0/Auth.csproj.CoreCompileInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/obj/Debug/netstandard2.0/Auth.AssemblyInfoInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/obj/Debug/netstandard2.0/Auth.AssemblyInfo.cs
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/obj/Debug/netstandard2.0/Auth.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth/obj/Debug/netstandard2.0/Auth.pdb

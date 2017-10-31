@@ -2,17 +2,33 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Autofac/4.6.2": {
+      "AutoMapper/6.1.1": {
         "type": "package",
         "dependencies": {
-          "NETStandard.Library": "1.6.0",
-          "System.ComponentModel": "4.0.1"
+          "Microsoft.CSharp": "4.3.0",
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Collections.Specialized": "4.3.0",
+          "System.ComponentModel.TypeConverter": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Linq.Queryable": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0"
         },
         "compile": {
-          "lib/netstandard1.1/Autofac.dll": {}
+          "lib/netstandard1.3/AutoMapper.dll": {}
         },
         "runtime": {
-          "lib/netstandard1.1/Autofac.dll": {}
+          "lib/netstandard1.3/AutoMapper.dll": {}
         }
       },
       "IdentityModel/2.12.0": {
@@ -66,6 +82,21 @@
         },
         "runtime": {
           "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll": {}
+        }
+      },
+      "IdentityServer4.EntityFramework/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "6.1.1",
+          "IdentityServer4": "2.0.0",
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/IdentityServer4.EntityFramework.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3678,17 +3709,17 @@
           "lib/netstandard1.6/System.Linq.Expressions.dll": {}
         }
       },
-      "System.Linq.Queryable/4.0.1": {
+      "System.Linq.Queryable/4.3.0": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.Diagnostics.Debug": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Linq.Expressions": "4.1.0",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Resources.ResourceManager": "4.0.1",
-          "System.Runtime": "4.1.0"
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Linq.Expressions": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.0/System.Linq.Queryable.dll": {}
@@ -4805,17 +4836,19 @@
     }
   },
   "libraries": {
-    "Autofac/4.6.2": {
-      "sha512": "wKI7F6+n45gqfq0T8FuB3hFzaCkuegiFo5in6uB1y2Ai9ZYcjue8yqk3yzyNEwBDS7AyvlTUGSoNovwpUuKqTw==",
+    "AutoMapper/6.1.1": {
+      "sha512": "A+6PAblvzmkXPS20nFBQJvlNSW5oEdyfN5+cxT/Du35fTNyuP5pNDXT64KT/jBgxt7CPduOM0Y7oLnNe0E5IXg==",
       "type": "package",
-      "path": "autofac/4.6.2",
+      "path": "automapper/6.1.1",
       "files": [
-        "autofac.4.6.2.nupkg.sha512",
-        "autofac.nuspec",
-        "lib/net45/Autofac.dll",
-        "lib/net45/Autofac.xml",
-        "lib/netstandard1.1/Autofac.dll",
-        "lib/netstandard1.1/Autofac.xml"
+        "automapper.6.1.1.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/netstandard1.1/AutoMapper.dll",
+        "lib/netstandard1.1/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.xml"
       ]
     },
     "IdentityModel/2.12.0": {
@@ -4851,6 +4884,17 @@
         "identityserver4.aspnetidentity.nuspec",
         "lib/netstandard2.0/IdentityServer4.AspNetIdentity.dll",
         "lib/netstandard2.0/IdentityServer4.AspNetIdentity.xml"
+      ]
+    },
+    "IdentityServer4.EntityFramework/2.0.0": {
+      "sha512": "BNVeIqJ2y2IzgV3OU7X7ppchAHgk6W+EF5ATG2E/Vv/kVcD5gRA1kDFEtIEluMdcXRMa5+GROJM53CbMH2uDAw==",
+      "type": "package",
+      "path": "identityserver4.entityframework/2.0.0",
+      "files": [
+        "identityserver4.entityframework.2.0.0.nupkg.sha512",
+        "identityserver4.entityframework.nuspec",
+        "lib/netstandard2.0/IdentityServer4.EntityFramework.dll",
+        "lib/netstandard2.0/IdentityServer4.EntityFramework.xml"
       ]
     },
     "Libuv/1.10.0": {
@@ -9696,10 +9740,10 @@
         "system.linq.expressions.nuspec"
       ]
     },
-    "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+    "System.Linq.Queryable/4.3.0": {
+      "sha512": "In1Bmmvl/j52yPu3xgakQSI0YIckPUr870w4K5+Lak3JCCa8hl+my65lABOuKfYs4ugmZy25ScFerC4nz8+b6g==",
       "type": "package",
-      "path": "system.linq.queryable/4.0.1",
+      "path": "system.linq.queryable/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -9749,7 +9793,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.linq.queryable.4.0.1.nupkg.sha512",
+        "system.linq.queryable.4.3.0.nupkg.sha512",
         "system.linq.queryable.nuspec"
       ]
     },
@@ -12607,8 +12651,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Autofac >= 4.6.2",
       "IdentityServer4.AspNetIdentity >= 2.0.0",
+      "IdentityServer4.EntityFramework >= 2.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12619,11 +12663,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/scaling-octo-engine.csproj",
-      "projectName": "scaling-octo-engine",
-      "projectPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/scaling-octo-engine.csproj",
+      "projectUniqueName": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/Auth.API.csproj",
+      "projectName": "Auth.API",
+      "projectPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/Auth.API.csproj",
       "packagesPath": "/home/adrian/.nuget/packages/",
-      "outputPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/obj/",
+      "outputPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/adrian/.config/NuGet/NuGet.Config"
@@ -12647,11 +12691,11 @@
             "target": "Package",
             "version": "2.0.0"
           },
-          "Autofac": {
-            "target": "Package",
-            "version": "4.6.2"
-          },
           "IdentityServer4.AspNetIdentity": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "IdentityServer4.EntityFramework": {
             "target": "Package",
             "version": "2.0.0"
           },

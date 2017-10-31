@@ -1,0 +1,10 @@
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.deps.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.runtimeconfig.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.runtimeconfig.dev.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.pdb
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/Debug/netcoreapp2.0/Auth.API.csproj.CoreCompileInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/Debug/netcoreapp2.0/Auth.API.AssemblyInfoInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/Debug/netcoreapp2.0/Auth.API.AssemblyInfo.cs
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/Debug/netcoreapp2.0/Auth.API.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/Debug/netcoreapp2.0/Auth.API.pdb

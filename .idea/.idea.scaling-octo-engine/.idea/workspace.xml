@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2154789-790d-425a-bd12-9588ef33f416" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Auth.API/Config.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine/obj/scaling-octo-engine.csproj.nuget.cache" afterPath="$PROJECT_DIR$/scaling-octo-engine/obj/scaling-octo-engine.csproj.nuget.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/contentModel.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine/Dockerfile" afterPath="$PROJECT_DIR$/scaling-octo-engine/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine.sln" afterPath="$PROJECT_DIR$/scaling-octo-engine.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine/obj/project.assets.json" afterPath="$PROJECT_DIR$/scaling-octo-engine/obj/project.assets.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/scaling-octo-engine/obj/project.packagespec.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scaling-octo-engine/scaling-octo-engine.csproj" afterPath="$PROJECT_DIR$/scaling-octo-engine/scaling-octo-engine.csproj" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,28 +19,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Controllers/ValuesController.cs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NuGet.Config" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.config/NuGet/NuGet.Config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <marker date="1508964011787" expanded="false" signature="6:128" ph="..." />
-                <marker date="1508964011787" expanded="true" signature="171:927" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="252:925" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="343:417" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="506:554" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="651:671" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="783:803" ph="{...}" />
-                <marker date="1508964011787" expanded="true" signature="899:919" ph="{...}" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.API.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Auth.API/Auth.API.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.json">
+        <entry file="file://$PROJECT_DIR$/Auth.API/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1509473828236" expanded="true" signature="15:207" ph="{...}" />
+                <marker date="1509473828236" expanded="true" signature="78:116" ph="{...}" />
+                <marker date="1509473828236" expanded="true" signature="159:197" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tempkey.rsa" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Auth.API/tempkey.rsa">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -46,54 +65,87 @@
         </entry>
       </file>
       <file leaf-file-name="appsettings.Development.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.Development.json">
+        <entry file="file://$PROJECT_DIR$/Auth.API/appsettings.Development.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1509473828222" expanded="true" signature="15:162" ph="{...}" />
+                <marker date="1509473828222" expanded="true" signature="61:158" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Program.cs">
+        <entry file="file://$PROJECT_DIR$/Auth.API/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-102">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1508964011790" expanded="true" signature="6:255" ph="..." />
-                <marker date="1508964011790" expanded="true" signature="286:607" ph="{...}" />
-                <marker date="1508964011790" expanded="true" signature="313:605" ph="{...}" />
-                <marker date="1508964011790" expanded="true" signature="366:424" ph="{...}" />
+                <marker date="1509473841179" expanded="true" signature="6:255" ph="..." />
+                <marker date="1509473841179" expanded="true" signature="275:596" ph="{...}" />
+                <marker date="1509473841179" expanded="true" signature="302:594" ph="{...}" />
+                <marker date="1509473841179" expanded="true" signature="355:413" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Startup.cs">
+        <entry file="file://$PROJECT_DIR$/Auth.API/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-158">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="235">
+              <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
-                <marker date="1508964011794" expanded="true" signature="6:330" ph="..." />
-                <marker date="1508964011794" expanded="true" signature="361:1141" ph="{...}" />
-                <marker date="1508964011794" expanded="true" signature="388:1139" ph="{...}" />
-                <marker date="1508964011794" expanded="true" signature="447:510" ph="{...}" />
-                <marker date="1508964011794" expanded="true" signature="733:784" ph="{...}" />
-                <marker date="1508964011794" expanded="true" signature="972:1133" ph="{...}" />
-                <marker date="1508964011794" expanded="true" signature="1019:1096" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="6:330" ph="..." />
+                <marker date="1509475552539" expanded="true" signature="350:1338" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="377:1336" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="436:499" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="722:970" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="1158:1330" ph="{...}" />
+                <marker date="1509475552539" expanded="true" signature="1205:1282" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Auth.API/Config.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+              <folding>
+                <marker date="1509475287892" expanded="true" signature="6:63" ph="..." />
+                <marker date="1509475287892" expanded="true" signature="83:1026" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="116:1024" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="187:327" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="251:316" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="382:1018" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="441:1007" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="486:993" ph="{...}" />
+                <marker date="1509475287892" expanded="true" signature="793:870" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Auth.API/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Auth/Auth.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,16 +156,33 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.config/NuGet/NuGet.Config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/21469AE8-D46F-4A1B-AB72-10DCD1287A31/7f/2ce36561/ApiResource.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scaling-octo-engine/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scaling-octo-engine/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/scaling-octo-engine/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Auth.API/Config.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scaling-octo-engine/Dockerfile" />
+        <option value="$USER_HOME$/.config/NuGet/NuGet.Config" />
+        <option value="$PROJECT_DIR$/Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/Auth/Class1.cs" />
+        <option value="$PROJECT_DIR$/Auth/Auth.csproj" />
+        <option value="$PROJECT_DIR$/Auth.API/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Auth.API/Cl.cs" />
+        <option value="$PROJECT_DIR$/Auth.API/Config.cs" />
+        <option value="$PROJECT_DIR$/Auth.API/Startup.cs" />
       </list>
     </option>
   </component>
@@ -123,7 +192,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-2" />
     <option name="width" value="1370" />
     <option name="height" value="739" />
@@ -150,18 +219,17 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="scaling-octo-engine (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="scaling-octo-engine (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="scaling-octo-engine (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="scaling-octo-engine" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="scaling-octo-engine (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Auth" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="scaling-octo-engine (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="scaling-octo-engine" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="scaling-octo-engine (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Auth.API" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -173,6 +241,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -186,7 +259,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager" selected=".NET Project.Auth.API">
+    <configuration name="Auth.API" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Auth.API/Auth.API.csproj" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Auth.API/bin/Debug/netcoreapp2.0/Auth.API.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Auth.API" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+    </configuration>
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -198,6 +282,15 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <envs />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.Auth.API" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.Auth.API" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -214,7 +307,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1870000" />
+    <option name="totallyTimeSpent" value="5228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -226,29 +319,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="0" width="1370" height="739" extended-state="0" />
+    <frame x="-2" y="0" width="1370" height="739" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -259,15 +353,95 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <marker date="1508964011787" expanded="false" signature="6:128" ph="..." />
+            <marker date="1508964011787" expanded="true" signature="171:927" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="252:925" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="343:417" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="506:554" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="651:671" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="783:803" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="899:919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508963981694" expanded="true" signature="15:207" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="78:116" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="159:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508964011790" expanded="false" signature="6:255" ph="..." />
+            <marker date="1508964011790" expanded="true" signature="286:607" ph="{...}" />
+            <marker date="1508964011790" expanded="true" signature="313:605" ph="{...}" />
+            <marker date="1508964011790" expanded="true" signature="366:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508964011794" expanded="false" signature="6:330" ph="..." />
+            <marker date="1508964011794" expanded="true" signature="361:1141" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="388:1139" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="447:510" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="733:784" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="972:1133" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="1019:1096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508963981694" expanded="true" signature="15:207" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="78:116" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="159:197" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -301,7 +475,7 @@
         <state relative-caret-position="-158">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508964011794" expanded="true" signature="6:330" ph="..." />
+            <marker date="1508964011794" expanded="false" signature="6:330" ph="..." />
             <marker date="1508964011794" expanded="true" signature="361:1141" ph="{...}" />
             <marker date="1508964011794" expanded="true" signature="388:1139" ph="{...}" />
             <marker date="1508964011794" expanded="true" signature="447:510" ph="{...}" />
@@ -317,7 +491,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1508964011790" expanded="true" signature="6:255" ph="..." />
+            <marker date="1508964011790" expanded="false" signature="6:255" ph="..." />
             <marker date="1508964011790" expanded="true" signature="286:607" ph="{...}" />
             <marker date="1508964011790" expanded="true" signature="313:605" ph="{...}" />
             <marker date="1508964011790" expanded="true" signature="366:424" ph="{...}" />
@@ -329,6 +503,225 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <marker date="1508964011787" expanded="false" signature="6:128" ph="..." />
+            <marker date="1508964011787" expanded="true" signature="171:927" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="252:925" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="343:417" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="506:554" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="651:671" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="783:803" ph="{...}" />
+            <marker date="1508964011787" expanded="true" signature="899:919" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508963981694" expanded="true" signature="15:207" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="78:116" ph="{...}" />
+            <marker date="1508963981694" expanded="true" signature="159:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508964011790" expanded="false" signature="6:255" ph="..." />
+            <marker date="1508964011790" expanded="true" signature="286:607" ph="{...}" />
+            <marker date="1508964011790" expanded="true" signature="313:605" ph="{...}" />
+            <marker date="1508964011790" expanded="true" signature="366:424" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaling-octo-engine/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-214">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1508964011794" expanded="false" signature="6:330" ph="..." />
+            <marker date="1508964011794" expanded="true" signature="361:1141" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="388:1139" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="447:510" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="733:784" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="972:1133" ph="{...}" />
+            <marker date="1508964011794" expanded="true" signature="1019:1096" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <marker date="1509473055022" expanded="true" signature="29:69" ph="{...}" />
+            <marker date="1509473055022" expanded="true" signature="55:67" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth/Auth.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Auth.API.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Cl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/21469AE8-D46F-4A1B-AB72-10DCD1287A31/7f/2ce36561/ApiResource.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509473828222" expanded="true" signature="15:162" ph="{...}" />
+            <marker date="1509473828222" expanded="true" signature="61:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509473828236" expanded="true" signature="15:207" ph="{...}" />
+            <marker date="1509473828236" expanded="true" signature="78:116" ph="{...}" />
+            <marker date="1509473828236" expanded="true" signature="159:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/tempkey.rsa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Config.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <marker date="1509475287892" expanded="true" signature="6:63" ph="..." />
+            <marker date="1509475287892" expanded="true" signature="83:1026" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="116:1024" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="187:327" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="251:316" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="382:1018" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="441:1007" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="486:993" ph="{...}" />
+            <marker date="1509475287892" expanded="true" signature="793:870" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509473841179" expanded="true" signature="6:255" ph="..." />
+            <marker date="1509473841179" expanded="true" signature="275:596" ph="{...}" />
+            <marker date="1509473841179" expanded="true" signature="302:594" ph="{...}" />
+            <marker date="1509473841179" expanded="true" signature="355:413" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Auth.API/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <marker date="1509475552539" expanded="true" signature="6:330" ph="..." />
+            <marker date="1509475552539" expanded="true" signature="350:1338" ph="{...}" />
+            <marker date="1509475552539" expanded="true" signature="377:1336" ph="{...}" />
+            <marker date="1509475552539" expanded="true" signature="436:499" ph="{...}" />
+            <marker date="1509475552539" expanded="true" signature="722:970" ph="{...}" />
+            <marker date="1509475552539" expanded="true" signature="1158:1330" ph="{...}" />
+            <marker date="1509475552539" expanded="true" signature="1205:1282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/NuGet/NuGet.Config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding />
         </state>
       </provider>

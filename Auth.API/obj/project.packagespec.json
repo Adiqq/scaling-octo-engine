@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/scaling-octo-engine.csproj",
-    "projectName": "scaling-octo-engine",
-    "projectPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/scaling-octo-engine.csproj",
-    "outputPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/scaling-octo-engine/obj/",
+    "projectUniqueName": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/Auth.API.csproj",
+    "projectName": "Auth.API",
+    "projectPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/Auth.API.csproj",
+    "outputPath": "/home/adrian/Projects/docker/final/scaling-octo-engine/Auth.API/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp2.0"
@@ -22,11 +22,11 @@
           "target": "Package",
           "version": "2.0.0"
         },
-        "Autofac": {
-          "target": "Package",
-          "version": "4.6.2"
-        },
         "IdentityServer4.AspNetIdentity": {
+          "target": "Package",
+          "version": "2.0.0"
+        },
+        "IdentityServer4.EntityFramework": {
           "target": "Package",
           "version": "2.0.0"
         },
