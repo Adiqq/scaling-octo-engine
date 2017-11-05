@@ -95,7 +95,7 @@ namespace Identity.Server
                 {
                     options.SignInScheme = "Cookies";
 
-                    options.Authority = "http://localhost:5000";
+                    options.Authority = Environment.GetEnvironmentVariable("AUTHORITY");
                     options.RequireHttpsMetadata = false;
 
                     options.ClientId = "mvc";
