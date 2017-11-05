@@ -8,10 +8,13 @@ pipeline {
     }
     stage('Run') {
       steps {
-        sh '''docker stop identity-server || true
-docker rm identity-server || true
-docker run --network=final --name=identity-server --restart=always \\
--d -p 30001:80 identity-server'''
+        sh '''
+        docker stop identity-server || true
+        docker rm identity-server || true
+        docker run --network=final --name=identity-server \\
+          --restart=always-d -p 30001:80 \\
+          -e CONNECTION_STRING="$CONNECTION_STRING" \\
+          identity-server'''
       }
     }
   }
