@@ -3,15 +3,15 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'docker build -t scaling-octo-engine scaling-octo-engine'
+        sh 'docker build -t identity-server Identity.Server'
       }
     }
     stage('Run') {
       steps {
-        sh '''docker stop scaling-octo-engine || true
-docker rm scaling-octo-engine || true
-docker run --network=final --name=scaling-octo-engine --restart=always \\
--d -p 30001:80 scaling-octo-engine'''
+        sh '''docker stop identity-server || true
+docker rm identity-server || true
+docker run --network=final --name=identity-server --restart=always \\
+-d -p 30001:80 identity-server'''
       }
     }
   }

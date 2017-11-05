@@ -22,6 +22,7 @@
           <e p="ApplicationDbContext.cs" t="Include" />
           <e p="ApplicationUser.cs" t="Include" />
         </e>
+        <e p="Dockerfile" t="Include" />
         <e p="Identity.Server.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
           <e p="20171105202304_InitApplication.Designer.cs" t="Include" />
