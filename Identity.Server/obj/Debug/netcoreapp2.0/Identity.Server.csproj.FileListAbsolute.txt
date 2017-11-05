@@ -1,0 +1,10 @@
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/bin/Debug/netcoreapp2.0/Identity.Server.deps.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/bin/Debug/netcoreapp2.0/Identity.Server.runtimeconfig.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/bin/Debug/netcoreapp2.0/Identity.Server.runtimeconfig.dev.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/bin/Debug/netcoreapp2.0/Identity.Server.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/bin/Debug/netcoreapp2.0/Identity.Server.pdb
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/obj/Debug/netcoreapp2.0/Identity.Server.csproj.CoreCompileInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/obj/Debug/netcoreapp2.0/Identity.Server.AssemblyInfoInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/obj/Debug/netcoreapp2.0/Identity.Server.AssemblyInfo.cs
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/obj/Debug/netcoreapp2.0/Identity.Server.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Identity.Server/obj/Debug/netcoreapp2.0/Identity.Server.pdb

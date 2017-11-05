@@ -1,0 +1,8 @@
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/bin/Debug/netstandard2.0/Core.deps.json
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/bin/Debug/netstandard2.0/Core.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/bin/Debug/netstandard2.0/Core.pdb
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/obj/Debug/netstandard2.0/Core.csproj.CoreCompileInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/obj/Debug/netstandard2.0/Core.AssemblyInfoInputs.cache
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/obj/Debug/netstandard2.0/Core.AssemblyInfo.cs
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/obj/Debug/netstandard2.0/Core.dll
+/home/adrian/Projects/docker/final/scaling-octo-engine/Core/obj/Debug/netstandard2.0/Core.pdb
