@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2154789-790d-425a-bd12-9588ef33f416" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.scaling-octo-engine/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Api/Controllers/IdentityController.cs" afterPath="$PROJECT_DIR$/Api/Controllers/IdentityController.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +16,11 @@
       <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+            <state relative-caret-position="85">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <marker date="1510356511109" expanded="true" signature="6:65" ph="..." />
+                <marker date="1510356511109" expanded="true" signature="92:850" ph="{...}" />
                 <marker date="1510356511109" expanded="true" signature="175:848" ph="{...}" />
                 <marker date="1510356511109" expanded="true" signature="266:340" ph="{...}" />
                 <marker date="1510356511109" expanded="true" signature="429:477" ph="{...}" />
@@ -31,21 +32,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IdentityController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Api/Controllers/IdentityController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding>
-                <marker date="1510356512762" expanded="true" signature="6:92" ph="..." />
-                <marker date="1510356512762" expanded="true" signature="186:388" ph="{...}" />
-                <marker date="1510356512762" expanded="true" signature="253:374" ph="{...}" />
+                <marker date="1510356849107" expanded="false" signature="6:92" ph="..." />
+                <marker date="1510356849107" expanded="true" signature="119:424" ph="{...}" />
+                <marker date="1510356849107" expanded="true" signature="220:422" ph="{...}" />
+                <marker date="1510356849107" expanded="true" signature="287:408" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -226,10 +228,10 @@
         <option value="$PROJECT_DIR$/Identity.Server/Dockerfile" />
         <option value="$PROJECT_DIR$/Identity.Server/Config.cs" />
         <option value="$PROJECT_DIR$/Identity.Server/Startup.cs" />
-        <option value="$PROJECT_DIR$/Api/Controllers/IdentityController.cs" />
         <option value="$PROJECT_DIR$/Api/Startup.cs" />
         <option value="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Api/Dockerfile" />
+        <option value="$PROJECT_DIR$/Api/Controllers/IdentityController.cs" />
       </list>
     </option>
   </component>
@@ -266,6 +268,17 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="scaling-octo-engine (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="scaling-octo-engine (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Api" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="scaling-octo-engine (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Api" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -361,12 +374,12 @@
       <workItem from="1509909566815" duration="12977000" />
       <workItem from="1510353940500" duration="70000" />
       <workItem from="1510354034362" duration="1977000" />
-      <workItem from="1510356503483" duration="47000" />
+      <workItem from="1510356503483" duration="348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22832000" />
+    <option name="totallyTimeSpent" value="23133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,34 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-          <folding>
-            <marker date="1510356511109" expanded="true" signature="6:65" ph="..." />
-            <marker date="1510356511109" expanded="true" signature="175:848" ph="{...}" />
-            <marker date="1510356511109" expanded="true" signature="266:340" ph="{...}" />
-            <marker date="1510356511109" expanded="true" signature="429:477" ph="{...}" />
-            <marker date="1510356511109" expanded="true" signature="574:594" ph="{...}" />
-            <marker date="1510356511109" expanded="true" signature="706:726" ph="{...}" />
-            <marker date="1510356511109" expanded="true" signature="822:842" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Api/Controllers/IdentityController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1510356512762" expanded="true" signature="6:92" ph="..." />
-            <marker date="1510356512762" expanded="true" signature="186:388" ph="{...}" />
-            <marker date="1510356512762" expanded="true" signature="253:374" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Api/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -797,6 +782,36 @@
             <marker date="1510356513049" expanded="true" signature="755:985" ph="{...}" />
             <marker date="1510356513049" expanded="true" signature="1185:1346" ph="{...}" />
             <marker date="1510356513049" expanded="true" signature="1232:1309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <marker date="1510356511109" expanded="true" signature="6:65" ph="..." />
+            <marker date="1510356511109" expanded="true" signature="92:850" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="175:848" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="266:340" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="429:477" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="574:594" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="706:726" ph="{...}" />
+            <marker date="1510356511109" expanded="true" signature="822:842" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Api/Controllers/IdentityController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <marker date="1510356849107" expanded="false" signature="6:92" ph="..." />
+            <marker date="1510356849107" expanded="true" signature="119:424" ph="{...}" />
+            <marker date="1510356849107" expanded="true" signature="220:422" ph="{...}" />
+            <marker date="1510356849107" expanded="true" signature="287:408" ph="{...}" />
           </folding>
         </state>
       </provider>
