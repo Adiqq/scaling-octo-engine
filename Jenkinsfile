@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh 'docker build -t identity-server Identity.Server'
+	sh 'docker build -t api Api'
       }
     }
     stage('Run') {
@@ -15,7 +16,13 @@ pipeline {
           --restart=always -d -p 30001:80 \\
           -e CONNECTION_STRING="$CONNECTION_STRING" \\
           -e AUTHORITY="http://adwa.westeurope.cloudapp.azure.com:30001" \\
-          identity-server'''
+          identity-server
+	docker stop api || true
+	docker rm api || true
+	docker run --network=final --name=api \\
+	  --restart=always -d -p 30002:80 \\
+	  -e AUTHORITY="http://adwa.westeurope.cloudapp.azure.com:30001" \\
+	  api'''
       }
     }
   }
