@@ -31,7 +31,13 @@ namespace Identity.Server
                     },
 
                     // scopes that client has access to
-                    AllowedScopes = { "api1" }
+                    AllowedScopes =
+                    {
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Phone,
+                        "api1"
+                    }
                 },
                 new Client
                 {
